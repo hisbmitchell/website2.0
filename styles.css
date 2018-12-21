@@ -1,0 +1,182 @@
+@font-face{
+    font-family: BaiJamjureeMedium;
+    src: url("Bai_Jamjuree/BaiJamjuree-Medium.ttf");
+}
+
+@font-face{
+    font-family: BaiJamjureeLight;
+    src: url("Bai_Jamjuree/BaiJamjuree-Light.ttf");
+}
+
+body {
+    background-color: ;
+}
+
+p {
+    font-family: BaiJamjureeLight;
+    color: black;
+    text-align:left;
+    padding: 1%;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin: 0;
+}
+
+img {
+    width:60%;
+    height: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+    padding-top: 3%;
+    
+}
+
+.image img, .image span {
+  display: block;
+}
+
+.image span, .image figcaption {
+  caption-side:  bottom;
+  margin-top: 8px;
+}
+
+iframe {
+    padding-left:10%;
+    padding-right:10%;
+    position: relative;
+
+}
+
+a:link {
+    color: white;
+    //text-decoration:none;
+    
+}
+
+a:visited {
+    color:white;
+    
+}
+
+a:hover {
+    color:blue;
+    
+    
+}
+
+a:active {
+    
+}
+
+li {
+    text-decoration: none;
+}
+
+li p {
+    text-decoration: none;
+    color: black;
+    padding-bottom: 0;
+    padding-top: 0;
+    text-align: left;
+    padding-left: 15%;
+    padding-right: 15%;
+    
+}
+
+ul {
+    
+    list-style-type: none;
+
+}
+
+#name {
+    text-align: left;
+    color: White;
+    font-family: BaiJamjureeMedium;
+    background-color:;
+    margin-top: 10%;
+}
+
+#works-list {
+    text-decoration:none;
+    padding:0px;
+    
+}
+
+#works-link{
+    
+    
+}
+
+#home-background {
+/*
+    background-image: url("silver.jpg");
+    background-repeat: no-repeat;
+    background-size: 55%;
+    background-position: center 150px;
+*/
+    background-color: black;
+   
+}
+
+#home-shader {
+    
+   
+    z-index: -1;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+    position: fixed;
+    margin-top: -10%;
+    
+}
+
+
+#description {
+    margin-top: -3%;
+   margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%
+    
+    
+}
+
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.sidenav {
+    width: 130px;
+    position: fixed;
+    z-index: 1;
+    top: 0px;
+    left: 40px;
+    overflow-x: hidden;
+    padding: 8px 0;
+    padding-top: 5%;
+    
+}
+
+.sidenav a{
+    font-family: BaiJamjureeLight;
+    padding: 0;
+    text-decoration: none;
+    font-size: 15px;
+    color: #2196F3;
+    display: block;
+    color: black;
+}
+
+.sidenav a:hover {
+    color: blue;
+}
+
+.sidenav a:active {
+    color: blue;
+}
+
